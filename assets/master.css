@@ -16,7 +16,10 @@ body {
   width: 100%;
 }
 
-
+.container {
+  margin: 60px auto;
+  width: 80%;
+}
 
 .card, .bgk-white{
   float: left;
@@ -28,13 +31,13 @@ body {
   background-repeat: repeat-y;
   background-position: center;
   background-size: cover;
-  width: 12%;
+  width: 20%;
   margin: 20px 15px;
   height: 180px;
 }
 
 .bgk-white {
-  width: 12%;
+  width: 20%;
   margin: 20px 15px;
   height: 180px;
   background-color: white;
