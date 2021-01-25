@@ -1,0 +1,41 @@
+/* --- GENERIC SELECTIONS --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.col {
+  float: left;
+}
+
+/* --- CARD SELECTORS --- */
+.card {
+  background-color: white;
+  width: 12%;
+  margin: 4% 3%;
+  min-height: 180px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+
+
+organizzo in 4 colonne da tre carte
+position absulut o float per affiancare le colonne
+position per piazzare il testo delle carte sopra
